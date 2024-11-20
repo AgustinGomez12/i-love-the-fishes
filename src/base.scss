@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*
+Fonst nombres
+.anton-sc-regular {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .shadows-into-light-regular {
+    font-family: "Shadows Into Light", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .lobster-regular {
+    font-family: "Lobster", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+*/
+
+
+@keyframes cambiosDeColor {
+    0%{
+        background-size: 200% 200%;
+    }
+
+    50% {
+        background-size: 600% 600%;
+    }
+
+    100%{
+        background-size: 200% 200%;
+    }
+}
