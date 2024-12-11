@@ -70,6 +70,7 @@
             overflow: hidden;
             transition: 3s;
             list-style: none;
+            z-index: 1;
 
             li {
                 display: flex;
@@ -125,6 +126,7 @@
                 width: 100%;
                 list-style: none;
                 gap: 30px;
+                
             }
 
             li {
