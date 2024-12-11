@@ -32,7 +32,7 @@ const MainsContainer = () => {
               <NavLink>
                 {" "}
                 <img
-                  src="http://127.0.0.1:5500/img/realistic%20discus%20fish%20design.png"
+                  src="https://agustingomez12.github.io/baseDeImagenes/img/realistic%20discus%20fish%20design.png"
                   alt=""
                 />
               </NavLink>
