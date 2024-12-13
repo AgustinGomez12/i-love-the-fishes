@@ -127,6 +127,11 @@
             flex-direction: column;
             margin-top: 40px;
 
+            iframe {
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+
             p {
                 padding: 10px;
                 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -144,6 +149,11 @@
             display: flex;
             flex-direction: column;
             margin-top: 60px;
+
+            iframe {
+                padding-left: 10px;
+                padding-right: 10px;
+            }
 
             p {
                 padding: 10px;
