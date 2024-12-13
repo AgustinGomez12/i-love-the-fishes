@@ -2,6 +2,7 @@ import './App.scss'
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import Header from './components/Header'
 import MainsContainer from './components/MainsContainer'
+import Footer from './components/Footer'
 function App() {
   
 
@@ -11,6 +12,7 @@ function App() {
       <Routes>
       <Route path='/' element={<MainsContainer/>}/>
       </Routes>
+      <Footer/>
     </BrowserRouter>
   )
 }

@@ -90,6 +90,57 @@ const MainsContainer = () => {
           </div>
         </div>
       </div>
+
+      <div className="videoIntrudcutorio-cotainer">
+        <h2>¿ Como armar un acuario ?</h2>
+
+        <div className="armadoAcuario-facil">
+          <iframe
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/zCwDklPkYqM?si=RfeiuVcdkSQVRdMe"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          <p>
+            En este video del canal de YouTube{" "}
+            <a href="https://www.youtube.com/@AcuariosRtules">
+              Acuarios Rtules
+            </a>
+            , aprenderás cómo montar un acuario básico para principiantes en
+            este hobby. El video cubre desde la selección del equipo adecuado
+            hasta la introducción de los peces, proporcionando consejos
+            prácticos y recomendaciones paso a paso para asegurar que tu acuario
+            se convierta en un entorno saludable y bello para tus nuevas
+            mascotas acuáticas.
+          </p>
+        </div>
+
+        <div className="armadoAcuario-dificil">
+          <iframe
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/kVwKeELQdsU?si=FeKCyu65LbOnL3C4"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          <p>
+            En este video del canal de YouTube{" "}
+            <a href="https://www.youtube.com/@AcuariosMB">Acuarios MB</a>,
+            aprenderás a armar un acuario marino desde cero. Este tutorial cubre
+            todos los aspectos esenciales, desde la elección del equipo adecuado
+            hasta la configuración y el mantenimiento de tu nuevo acuario
+            marino. Es ideal para principiantes que desean sumergirse en este
+            fascinante hobby acuático.
+          </p>
+        </div>
+      </div>
     </main>
   );
 };

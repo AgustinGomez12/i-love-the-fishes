@@ -41,3 +41,17 @@ Fonst nombres
         background-size: 200% 200%;
     }
 }
+
+@keyframes cambiosDecolorLinks {
+  0%{
+    color: blue;
+  }
+
+  50% {
+    color: blueviolet;
+  }
+
+  100% {
+    color: lime;
+  }
+}
