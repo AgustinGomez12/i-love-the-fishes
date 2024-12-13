@@ -6,7 +6,21 @@ const MainsContainer = () => {
     <main className="mainInicio">
       <div className="containerPrimerTexto">
         <h1>Bienvenidos a I love the fishes</h1>
-        <p>Tu sitio web confiable sobre peces 🐠 y animales marinos.</p>
+        <p>
+          Tu sitio web confiable sobre peces 🐠 y animales marinos. Aquí
+          encontrarás todo lo que necesitas saber sobre el fascinante mundo
+          acuático, desde las especies más comunes hasta las más exóticas.
+          Aprenderás sobre sus hábitats naturales, comportamientos, y
+          curiosidades únicas. Además, te brindamos consejos prácticos para el
+          cuidado de tu acuario, guías detalladas para la identificación de
+          especies.
+        </p>
+        <video width="100%" height="100%" autoPlay loop muted>
+          <source
+            src="https://agustingomez12.github.io/baseDeImagenes/img/pecesVideo.mp4"
+            type="video/mp4"
+          />
+        </video>
       </div>
 
       <div className="pecesPopulares">
@@ -52,7 +66,9 @@ const MainsContainer = () => {
                 />
               </NavLink>
               <p>
-              El pez goldfish, conocido científicamente como Carassius auratus, es uno de los peces ornamentales más populares y apreciados en el mundo de la acuariofilia
+                El pez goldfish, conocido científicamente como Carassius
+                auratus, es uno de los peces ornamentales más populares y
+                apreciados en el mundo de la acuariofilia
               </p>
             </figure>
           </div>
@@ -67,10 +83,11 @@ const MainsContainer = () => {
               </NavLink>
             </figure>
             <p>
-            Es uno de los peces ornamentales más populares en acuarios de agua dulce,este pez es conocido por sus brillantes colores y su naturaleza pacífica.
+              Es uno de los peces ornamentales más populares en acuarios de agua
+              dulce,este pez es conocido por sus brillantes colores y su
+              naturaleza pacífica.
             </p>
           </div>
-          
         </div>
       </div>
     </main>
