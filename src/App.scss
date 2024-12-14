@@ -214,6 +214,33 @@ position: relative;
 }
 }
 
+.DocNemo {
+    display: flex;
+    width: 30%;
+    height: 100px;
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+    figure {
+        width: 100px;
+        height: 100px;
+        background: linear-gradient(180deg,rgba(0, 255, 0, 0.549),white,rgba(0, 255, 0, 0.566));
+        border-radius: 100%;
+        padding: 10px;
+        &:hover {
+        cursor: pointer;
+        box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 0.572);
+        zoom: 1.1;
+        }
+        img {
+            width: 100%;
+        }
+    }
+}
+
 
 
 
