@@ -241,6 +241,70 @@ position: relative;
     }
 }
 
+.ChatConPez {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    background:linear-gradient(180deg, lime,green,lime,green,lime,green);
+    animation: cambiosDeColor 8s infinite alternate;
+    width: 300px;
+    height: 500px;
+    top: -500px;
+    left:100px;
+    border-radius: 10px 10px 10px 0px;
+    
+    
+    .IntroduccionHabla {
+        padding-top: 30px;
+        width: 90%;
+        height: 30%;
+        font-size: 17px;
+        font-family: "Anton SC", sans-serif;
+    }
+
+.container-opciones {
+       display: flex;
+       flex-direction: column;
+       gap: 30px;
+       align-items: center;
+
+      .opciones {
+        font-size: 20px;
+        font-family: "Anton SC", sans-serif;
+        background: linear-gradient(90deg,lime,green);
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 30px;
+        &:hover {
+            background: black;
+            color: aliceblue;
+            zoom: 1.1;
+            box-shadow: 0px 0px 10px 5px lime;
+          }
+    }
+
+    button {
+      font-size: 17px;
+      width: 100px;
+      height: 30px;
+      border-radius: 50px;
+      border: none;
+      background: linear-gradient(90deg,lime,blueviolet,green);
+      font-family: "Anton SC", sans-serif;
+      &:hover {
+        background: black;
+        color: aliceblue;
+        zoom: 1.1;
+        box-shadow: 0px 0px 10px 5px lime;
+      }
+    }
+}
+
+  
+
+}
+
 
 
 
